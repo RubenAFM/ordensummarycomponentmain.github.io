@@ -1,0 +1,158 @@
+:root {
+    /*Primary*/
+
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    /*Neutral*/
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --font-size: 12px;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: var(--font-size);
+    
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--pale-blue);
+}
+
+main {
+    max-width: 285px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+figure {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+section {
+    
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    padding: 1rem 2rem;
+
+}
+
+h1 {
+    font-weight: bold;
+    
+}
+
+p {
+    color: var(--desaturated-blue);
+}
+
+.orden-summary-section__anual_plan {
+    background-color: var(--very-pale-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+    
+}
+
+.orden-summary-section__anual_plan_icon_music {
+    height: 30px;   
+}
+
+
+
+h2, .orden-summary-section__anual_plan__text {
+    padding: 0px;
+    margin: 0px;
+    margin-right: 5rem;
+    
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.orden-summary-section__anual_plan__change {
+    color: var(--bright-blue);
+    font-weight: bold;
+}
+
+
+button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background-color: var(--bright-blue);
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 0px hsla(245, 75%, 52%, 0.8);
+
+}
+
+button:hover {
+    background: hsl(57, 18%, 37%);
+}
+
+.orden-summary-section__anual_plan_cancel  {
+    text-decoration: none;    
+    font-weight: bold;
+    color: var(--desaturated-blue);
+    
+    
+}
+
+.orden-summary-section__anual_plan__payment {
+    padding-bottom: 0.8rem
+}
+
+.attribution a {
+        
+    text-decoration: none;
+    
+}
+
+.attribution {
+    margin: 1rem;
+    padding: 0.5rem;
+    background: hsl(45, 100%, 50%);
+    border-radius: 5px;
+}
